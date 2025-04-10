@@ -1,0 +1,15 @@
+name: aws-dev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - boto3
+  - jupyterlab
+  - pandas
+  - numpy
+  - requests
+  - ipykernel
+  - pip
+  - pip:
+      - awscli
